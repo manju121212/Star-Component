@@ -1,0 +1,29 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+
+.container{
+	display:flex;
+	justify-content:center;
+	flex-direction:column;
+	align-items:center;
+	margin-top:100px;
+}
+.container .star-container .star{
+    
+	font-size:3rem;
+    color:silver;
+    margin:20px;
+    cursor:pointer
+	}
+
+.star {
+  padding: 5px;
+  color: gray;
+  cursor: pointer;
+}
+.star-filled {
+  color: #ffdf00;
+}
